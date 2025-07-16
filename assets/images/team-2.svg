@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="personGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0066cc;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#00cccc;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="300" height="300" fill="url(#backgroundGradient)"/>
+
+  <!-- Tech background pattern -->
+  <g opacity="0.1">
+    <rect x="40" y="40" width="15" height="15" fill="url(#personGradient)" rx="2"/>
+    <rect x="245" y="40" width="12" height="12" fill="url(#personGradient)" rx="2"/>
+    <rect x="40" y="245" width="12" height="12" fill="url(#personGradient)" rx="2"/>
+    <rect x="245" y="245" width="15" height="15" fill="url(#personGradient)" rx="2"/>
+
+    <!-- Circuit lines -->
+    <line x1="60" y1="60" x2="240" y2="60" stroke="url(#personGradient)" stroke-width="2"/>
+    <line x1="60" y1="240" x2="240" y2="240" stroke="url(#personGradient)" stroke-width="2"/>
+    <line x1="60" y1="60" x2="60" y2="240" stroke="url(#personGradient)" stroke-width="2"/>
+    <line x1="240" y1="60" x2="240" y2="240" stroke="url(#personGradient)" stroke-width="2"/>
+  </g>
+
+  <!-- Person silhouette -->
+  <g transform="translate(150,150)">
+    <!-- Head -->
+    <circle cx="0" cy="-40" r="35" fill="url(#personGradient)"/>
+
+    <!-- Hair (tech professional style) -->
+    <path d="M -28 -65 Q -30 -75 -20 -78 Q 0 -80 20 -78 Q 30 -75 28 -65 Q 25 -60 22 -55 Q 0 -50 -22 -55 Q -25 -60 -28 -65 Z" fill="url(#personGradient)" opacity="0.9"/>
+
+    <!-- Glasses -->
+    <g opacity="0.9">
+      <circle cx="-15" cy="-42" r="12" fill="none" stroke="white" stroke-width="2"/>
+      <circle cx="15" cy="-42" r="12" fill="none" stroke="white" stroke-width="2"/>
+      <line x1="-3" y1="-42" x2="3" y2="-42" stroke="white" stroke-width="2"/>
+      <line x1="-27" y1="-42" x2="-32" y2="-40" stroke="white" stroke-width="2"/>
+      <line x1="27" y1="-42" x2="32" y2="-40" stroke="white" stroke-width="2"/>
+    </g>
+
+    <!-- Face features -->
+    <circle cx="-12" cy="-45" r="2" fill="white" opacity="0.8"/>
+    <circle cx="12" cy="-45" r="2" fill="white" opacity="0.8"/>
+    <ellipse cx="0" cy="-35" rx="4" ry="2" fill="white" opacity="0.6"/>
+    <path d="M -8 -25 Q 0 -20 8 -25" fill="none" stroke="white" stroke-width="2" opacity="0.7"/>
+
+    <!-- Neck -->
+    <rect x="-8" y="-5" width="16" height="15" fill="url(#personGradient)"/>
+
+    <!-- Tech casual attire (hoodie/polo) -->
+    <path d="M -35 10 L -25 -5 L -12 0 L 0 5 L 12 0 L 25 -5 L 35 10 L 40 50 L 30 80 L -30 80 L -40 50 Z" fill="url(#personGradient)" opacity="0.9"/>
+
+    <!-- Collar -->
+    <path d="M -12 0 L -18 10 L -8 15 L 0 10 L 8 15 L 18 10 L 12 0 Z" fill="white" opacity="0.6"/>
+
+    <!-- Tech shirt design -->
+    <rect x="-15" y="20" width="30" height="30" fill="white" opacity="0.4"/>
+    <rect x="-10" y="25" width="20" height="20" fill="url(#personGradient)" opacity="0.3"/>
+  </g>
+
+  <!-- Tech elements -->
+  <g opacity="0.3">
+    <!-- Code brackets -->
+    <text x="50" y="50" font-family="monospace" font-size="16" fill="url(#personGradient)">&lt;/&gt;</text>
+    <text x="230" y="50" font-family="monospace" font-size="16" fill="url(#personGradient)">{}</text>
+
+    <!-- Circuit board elements -->
+    <g transform="translate(40,220)">
+      <rect x="0" y="0" width="20" height="15" fill="url(#personGradient)" rx="2"/>
+      <circle cx="5" cy="5" r="2" fill="white"/>
+      <circle cx="15" cy="5" r="2" fill="white"/>
+      <circle cx="5" cy="10" r="2" fill="white"/>
+      <circle cx="15" cy="10" r="2" fill="white"/>
+      <line x1="5" y1="5" x2="15" y2="5" stroke="white" stroke-width="1"/>
+      <line x1="5" y1="10" x2="15" y2="10" stroke="white" stroke-width="1"/>
+      <line x1="5" y1="5" x2="5" y2="10" stroke="white" stroke-width="1"/>
+      <line x1="15" y1="5" x2="15" y2="10" stroke="white" stroke-width="1"/>
+    </g>
+
+    <!-- MIT logo reference -->
+    <rect x="220" y="220" width="25" height="15" fill="url(#personGradient)" rx="2"/>
+    <text x="232" y="230" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">MIT</text>
+
+    <!-- Binary code -->
+    <text x="50" y="100" font-family="monospace" font-size="8" fill="url(#personGradient)">101010</text>
+    <text x="220" y="180" font-family="monospace" font-size="8" fill="url(#personGradient)">110101</text>
+  </g>
+
+  <!-- CTO badge -->
+  <g transform="translate(190,200)">
+    <rect x="0" y="0" width="70" height="20" fill="url(#personGradient)" opacity="0.8" rx="10"/>
+    <text x="35" y="13" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">CTO</text>
+  </g>
+
+  <!-- Name label -->
+  <rect x="50" y="260" width="200" height="30" fill="white" opacity="0.9" rx="5"/>
+  <text x="150" y="275" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="url(#personGradient)" text-anchor="middle">Mike Chen</text>
+  <text x="150" y="285" font-family="Arial, sans-serif" font-size="10" fill="url(#personGradient)" text-anchor="middle" opacity="0.7">Chief Technology Officer</text>
+
+  <!-- Professional border -->
+  <rect x="5" y="5" width="290" height="290" fill="none" stroke="url(#personGradient)" stroke-width="3" opacity="0.3" rx="10"/>
+</svg>

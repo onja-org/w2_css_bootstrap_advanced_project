@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="personGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0066cc;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#00cccc;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="300" height="300" fill="url(#backgroundGradient)"/>
+
+  <!-- Design background pattern -->
+  <g opacity="0.1">
+    <polygon points="50,40 70,40 60,60" fill="url(#personGradient)"/>
+    <polygon points="240,40 260,40 250,60" fill="url(#personGradient)"/>
+    <polygon points="40,240 60,240 50,260" fill="url(#personGradient)"/>
+    <polygon points="240,240 260,240 250,260" fill="url(#personGradient)"/>
+
+    <!-- Design grid lines -->
+    <line x1="80" y1="80" x2="220" y2="80" stroke="url(#personGradient)" stroke-width="1" stroke-dasharray="5,5"/>
+    <line x1="80" y1="220" x2="220" y2="220" stroke="url(#personGradient)" stroke-width="1" stroke-dasharray="5,5"/>
+    <line x1="80" y1="80" x2="80" y2="220" stroke="url(#personGradient)" stroke-width="1" stroke-dasharray="5,5"/>
+    <line x1="220" y1="80" x2="220" y2="220" stroke="url(#personGradient)" stroke-width="1" stroke-dasharray="5,5"/>
+  </g>
+
+  <!-- Person silhouette -->
+  <g transform="translate(150,150)">
+    <!-- Head -->
+    <circle cx="0" cy="-40" r="35" fill="url(#personGradient)"/>
+
+    <!-- Hair (creative professional style) -->
+    <path d="M -32 -65 Q -35 -78 -25 -82 Q 0 -85 25 -82 Q 35 -78 32 -65 Q 28 -58 25 -52 Q 15 -48 0 -48 Q -15 -48 -25 -52 Q -28 -58 -32 -65 Z" fill="url(#personGradient)" opacity="0.9"/>
+
+    <!-- Hair highlights -->
+    <path d="M -20 -70 Q -10 -75 0 -72 Q 10 -75 20 -70" fill="white" opacity="0.2"/>
+
+    <!-- Face features -->
+    <circle cx="-12" cy="-45" r="2" fill="white" opacity="0.8"/>
+    <circle cx="12" cy="-45" r="2" fill="white" opacity="0.8"/>
+    <ellipse cx="0" cy="-35" rx="4" ry="2" fill="white" opacity="0.6"/>
+    <path d="M -8 -25 Q 0 -20 8 -25" fill="none" stroke="white" stroke-width="2" opacity="0.7"/>
+
+    <!-- Neck -->
+    <rect x="-8" y="-5" width="16" height="15" fill="url(#personGradient)"/>
+
+    <!-- Creative professional attire (blazer with creative touch) -->
+    <path d="M -38 10 L -28 -5 L -15 0 L 0 5 L 15 0 L 28 -5 L 38 10 L 42 50 L 32 80 L -32 80 L -42 50 Z" fill="url(#personGradient)" opacity="0.9"/>
+
+    <!-- Artistic blazer design -->
+    <path d="M -15 0 L -25 15 L -20 25 L -10 10 Z" fill="white" opacity="0.4"/>
+    <path d="M 15 0 L 25 15 L 20 25 L 10 10 Z" fill="white" opacity="0.4"/>
+
+    <!-- Creative shirt with pattern -->
+    <path d="M -12 10 L 12 10 L 10 50 L -10 50 Z" fill="white" opacity="0.8"/>
+    <circle cx="-5" cy="25" r="2" fill="url(#personGradient)" opacity="0.3"/>
+    <circle cx="5" cy="35" r="2" fill="url(#personGradient)" opacity="0.3"/>
+    <circle cx="0" cy="45" r="2" fill="url(#personGradient)" opacity="0.3"/>
+
+    <!-- Necklace/accessory -->
+    <ellipse cx="0" cy="8" rx="8" ry="2" fill="white" opacity="0.6"/>
+  </g>
+
+  <!-- Design elements -->
+  <g opacity="0.3">
+    <!-- Color palette -->
+    <circle cx="50" cy="50" r="6" fill="#ff6b6b"/>
+    <circle cx="65" cy="50" r="6" fill="#4ecdc4"/>
+    <circle cx="80" cy="50" r="6" fill="#45b7d1"/>
+    <circle cx="95" cy="50" r="6" fill="#f9ca24"/>
+
+    <!-- Design tools -->
+    <g transform="translate(220,40)">
+      <rect x="0" y="0" width="25" height="3" fill="url(#personGradient)" rx="1"/>
+      <rect x="0" y="5" width="20" height="3" fill="url(#personGradient)" rx="1"/>
+      <rect x="0" y="10" width="15" height="3" fill="url(#personGradient)" rx="1"/>
+      <circle cx="30" cy="8" r="4" fill="url(#personGradient)"/>
+    </g>
+
+    <!-- Apple reference -->
+    <g transform="translate(40,220)">
+      <path d="M 10 0 Q 15 -5 20 0 Q 25 5 20 10 Q 15 15 10 10 Q 5 5 10 0 Z" fill="url(#personGradient)"/>
+      <rect x="0" y="20" width="30" height="8" fill="url(#personGradient)" rx="2"/>
+      <text x="15" y="26" font-family="Arial, sans-serif" font-size="6" fill="white" text-anchor="middle">APPLE</text>
+    </g>
+
+    <!-- Design awards -->
+    <g transform="translate(220,220)">
+      <polygon points="15,0 18,8 25,8 20,13 22,20 15,16 8,20 10,13 5,8 12,8" fill="url(#personGradient)"/>
+      <text x="15" y="30" font-family="Arial, sans-serif" font-size="6" fill="url(#personGradient)" text-anchor="middle">AWARD</text>
+    </g>
+
+    <!-- UI/UX elements -->
+    <rect x="50" y="100" width="40" height="25" fill="none" stroke="url(#personGradient)" stroke-width="1" rx="5"/>
+    <rect x="55" y="105" width="10" height="2" fill="url(#personGradient)"/>
+    <rect x="55" y="108" width="15" height="2" fill="url(#personGradient)"/>
+    <rect x="55" y="111" width="8" height="2" fill="url(#personGradient)"/>
+    <rect x="55" y="115" width="25" height="5" fill="url(#personGradient)" opacity="0.3" rx="2"/>
+
+    <!-- Mobile UI mockup -->
+    <rect x="200" y="100" width="20" height="35" fill="none" stroke="url(#personGradient)" stroke-width="1" rx="3"/>
+    <rect x="205" y="105" width="10" height="2" fill="url(#personGradient)"/>
+    <rect x="205" y="108" width="8" height="2" fill="url(#personGradient)"/>
+    <circle cx="210" cy="125" r="3" fill="url(#personGradient)" opacity="0.3"/>
+  </g>
+
+  <!-- Design Head badge -->
+  <g transform="translate(170,200)">
+    <rect x="0" y="0" width="90" height="20" fill="url(#personGradient)" opacity="0.8" rx="10"/>
+    <text x="45" y="13" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">HEAD OF DESIGN</text>
+  </g>
+
+  <!-- Name label -->
+  <rect x="50" y="260" width="200" height="30" fill="white" opacity="0.9" rx="5"/>
+  <text x="150" y="275" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="url(#personGradient)" text-anchor="middle">Lisa Rodriguez</text>
+  <text x="150" y="285" font-family="Arial, sans-serif" font-size="10" fill="url(#personGradient)" text-anchor="middle" opacity="0.7">Head of Design</text>
+
+  <!-- Professional border -->
+  <rect x="5" y="5" width="290" height="290" fill="none" stroke="url(#personGradient)" stroke-width="3" opacity="0.3" rx="10"/>
+</svg>

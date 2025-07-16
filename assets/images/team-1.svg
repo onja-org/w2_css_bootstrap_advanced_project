@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="personGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0066cc;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#00cccc;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="300" height="300" fill="url(#backgroundGradient)"/>
+
+  <!-- Professional background pattern -->
+  <g opacity="0.1">
+    <circle cx="50" cy="50" r="20" fill="url(#personGradient)"/>
+    <circle cx="250" cy="50" r="15" fill="url(#personGradient)"/>
+    <circle cx="50" cy="250" r="15" fill="url(#personGradient)"/>
+    <circle cx="250" cy="250" r="20" fill="url(#personGradient)"/>
+  </g>
+
+  <!-- Person silhouette -->
+  <g transform="translate(150,150)">
+    <!-- Head -->
+    <circle cx="0" cy="-40" r="35" fill="url(#personGradient)"/>
+
+    <!-- Hair (professional style) -->
+    <path d="M -30 -65 Q -35 -75 -25 -80 Q 0 -85 25 -80 Q 35 -75 30 -65 Q 25 -55 20 -50 Q 0 -45 -20 -50 Q -25 -55 -30 -65 Z" fill="url(#personGradient)" opacity="0.9"/>
+
+    <!-- Face features -->
+    <circle cx="-12" cy="-45" r="2" fill="white" opacity="0.8"/>
+    <circle cx="12" cy="-45" r="2" fill="white" opacity="0.8"/>
+    <ellipse cx="0" cy="-35" rx="4" ry="2" fill="white" opacity="0.6"/>
+    <path d="M -8 -25 Q 0 -20 8 -25" fill="none" stroke="white" stroke-width="2" opacity="0.7"/>
+
+    <!-- Neck -->
+    <rect x="-8" y="-5" width="16" height="15" fill="url(#personGradient)"/>
+
+    <!-- Professional attire (blazer) -->
+    <path d="M -40 10 L -30 -5 L -15 0 L 0 5 L 15 0 L 30 -5 L 40 10 L 45 50 L 35 80 L -35 80 L -45 50 Z" fill="url(#personGradient)" opacity="0.9"/>
+
+    <!-- Blazer lapels -->
+    <path d="M -15 0 L -25 15 L -20 25 L -10 10 Z" fill="white" opacity="0.3"/>
+    <path d="M 15 0 L 25 15 L 20 25 L 10 10 Z" fill="white" opacity="0.3"/>
+
+    <!-- Professional shirt -->
+    <path d="M -10 10 L 10 10 L 8 50 L -8 50 Z" fill="white" opacity="0.8"/>
+
+    <!-- Business accessories -->
+    <rect x="-2" y="15" width="4" height="20" fill="url(#personGradient)" opacity="0.6"/>
+  </g>
+
+  <!-- Professional elements -->
+  <g opacity="0.3">
+    <!-- Briefcase icon -->
+    <rect x="40" y="40" width="20" height="15" fill="url(#personGradient)" rx="2"/>
+    <rect x="48" y="35" width="4" height="5" fill="url(#personGradient)"/>
+
+    <!-- Chart icon -->
+    <g transform="translate(220,40)">
+      <rect x="0" y="10" width="3" height="8" fill="url(#personGradient)"/>
+      <rect x="5" y="6" width="3" height="12" fill="url(#personGradient)"/>
+      <rect x="10" y="2" width="3" height="16" fill="url(#personGradient)"/>
+      <rect x="15" y="8" width="3" height="10" fill="url(#personGradient)"/>
+    </g>
+
+    <!-- Leadership symbols -->
+    <polygon points="50,220 60,210 70,220 65,230 55,230" fill="url(#personGradient)"/>
+    <polygon points="230,220 240,210 250,220 245,230 235,230" fill="url(#personGradient)"/>
+  </g>
+
+  <!-- CEO badge -->
+  <g transform="translate(200,200)">
+    <rect x="0" y="0" width="60" height="20" fill="url(#personGradient)" opacity="0.8" rx="10"/>
+    <text x="30" y="13" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">CEO</text>
+  </g>
+
+  <!-- Name label -->
+  <rect x="50" y="260" width="200" height="30" fill="white" opacity="0.9" rx="5"/>
+  <text x="150" y="275" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="url(#personGradient)" text-anchor="middle">Sarah Johnson</text>
+  <text x="150" y="285" font-family="Arial, sans-serif" font-size="10" fill="url(#personGradient)" text-anchor="middle" opacity="0.7">CEO & Founder</text>
+
+  <!-- Professional border -->
+  <rect x="5" y="5" width="290" height="290" fill="none" stroke="url(#personGradient)" stroke-width="3" opacity="0.3" rx="10"/>
+</svg>

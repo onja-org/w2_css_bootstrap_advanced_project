@@ -1,0 +1,197 @@
+TECHFLOW LANDING PAGE CONTENT
+=====================================
+
+This file contains all the text content you'll need for your TechFlow landing page.
+Copy and paste the relevant sections as you build each phase.
+
+=====================================
+NAVIGATION
+=====================================
+
+Logo: TechFlow
+Navigation Items:
+- Home
+- Features
+- About
+- Pricing
+- Contact
+
+=====================================
+HERO SECTION
+=====================================
+
+Main Headline: Revolutionize Your Workflow with AI
+
+Subheadline: TechFlow's cutting-edge AI solutions streamline your processes, boost productivity, and drive innovation across your entire organization.
+
+Call-to-Action Buttons:
+- Primary Button: "Get Started"
+- Secondary Button: "Learn More"
+
+=====================================
+FEATURES SECTION
+=====================================
+
+Section Title: Why Choose TechFlow?
+
+Feature 1:
+- Icon: fas fa-chart-line
+- Title: AI-Powered Analytics
+- Description: Get deep insights into your workflow with advanced AI analytics that identify bottlenecks and optimization opportunities in real-time.
+
+Feature 2:
+- Icon: fas fa-plug
+- Title: Seamless Integration
+- Description: Connect with your existing tools and platforms effortlessly. Our API-first approach ensures smooth integration with minimal disruption.
+
+Feature 3:
+- Icon: fas fa-headset
+- Title: 24/7 Expert Support
+- Description: Our dedicated support team is available around the clock to help you maximize your productivity and resolve any issues quickly.
+
+=====================================
+ABOUT/TEAM SECTION
+=====================================
+
+Section Title: Meet Our Team
+
+Team Member 1:
+- Name: Sarah Johnson
+- Role: CEO & Founder
+- Description: Former Google executive with 15 years of experience in AI and machine learning. Sarah leads our vision for the future of work.
+
+Team Member 2:
+- Name: Mike Chen
+- Role: Chief Technology Officer
+- Description: MIT graduate and former Tesla engineer. Mike oversees our technical architecture and ensures our platform scales globally.
+
+Team Member 3:
+- Name: Lisa Rodriguez
+- Role: Head of Design
+- Description: Award-winning UX designer from Apple. Lisa crafts intuitive experiences that make complex AI tools accessible to everyone.
+
+=====================================
+PRICING SECTION
+=====================================
+
+Section Title: Choose Your Plan
+
+Plan 1:
+- Name: Starter
+- Price: $29
+- Period: per month
+- Features:
+  - Up to 5 team members
+  - Basic analytics
+  - Email support
+  - 10GB storage
+- Button: "Start Free Trial"
+
+Plan 2: (RECOMMENDED)
+- Name: Professional
+- Price: $79
+- Period: per month
+- Features:
+  - Up to 25 team members
+  - Advanced AI analytics
+  - Priority support
+  - 100GB storage
+  - Custom integrations
+- Button: "Get Started"
+- Badge: "Most Popular"
+
+Plan 3:
+- Name: Enterprise
+- Price: Custom
+- Period: pricing
+- Features:
+  - Unlimited team members
+  - Full AI suite
+  - Dedicated support
+  - Unlimited storage
+  - White-label options
+- Button: "Contact Sales"
+
+=====================================
+FOOTER
+=====================================
+
+Company Info:
+- Logo: TechFlow
+- Description: Empowering businesses with AI-driven workflow solutions that boost productivity and drive innovation.
+- Address: 123 Innovation Drive, Tech Valley, CA 94000
+- Phone: (555) 123-4567
+- Email: hello@techflow.ai
+
+Quick Links:
+- Home
+- Features
+- About
+- Pricing
+- Contact
+- Privacy Policy
+- Terms of Service
+
+Social Media:
+- Twitter: @TechFlowAI
+- LinkedIn: /company/techflow
+- GitHub: /techflow
+
+Newsletter:
+- Title: Stay Updated
+- Description: Get the latest updates on AI trends and TechFlow features.
+- Placeholder: Enter your email address
+- Button: Subscribe
+
+Copyright: © 2024 TechFlow. All rights reserved.
+
+=====================================
+ADDITIONAL CONTENT
+=====================================
+
+Page Meta:
+- Title: TechFlow - AI-Powered Workflow Solutions
+- Description: Revolutionize your workflow with TechFlow's cutting-edge AI solutions. Boost productivity, streamline processes, and drive innovation.
+
+Alt Text for Images:
+- Logo: TechFlow logo
+- Hero Image: Team collaborating with AI technology
+- Feature Icon 1: Analytics dashboard chart
+- Feature Icon 2: Integration connection diagram
+- Feature Icon 3: Customer support headset
+- Team Photo 1: Sarah Johnson, CEO of TechFlow
+- Team Photo 2: Mike Chen, CTO of TechFlow
+- Team Photo 3: Lisa Rodriguez, Head of Design at TechFlow
+
+Call-to-Action Phrases:
+- "Transform your workflow today"
+- "See TechFlow in action"
+- "Join thousands of satisfied customers"
+- "Start your free trial"
+- "Experience the future of work"
+
+=====================================
+HELPFUL TIPS
+=====================================
+
+Color Usage:
+- Primary color (#0066cc) for main buttons and accents
+- Secondary color (#00cccc) for secondary buttons and highlights
+- Dark color (#1a1a1a) for text and dark backgrounds
+- Use Bootstrap's color classes: btn-primary, text-primary, bg-primary, etc.
+
+Typography:
+- Use Bootstrap's heading classes: h1, h2, h3, etc.
+- Use lead class for larger introductory text
+- Use text-muted for secondary text
+
+Spacing:
+- Use Bootstrap spacing utilities: my-5, py-4, mb-3, etc.
+- Remember: m = margin, p = padding, x = horizontal, y = vertical
+
+Icons:
+- All icons use Font Awesome classes
+- Example: <i class="fas fa-chart-line"></i>
+- Make icons larger with fa-2x, fa-3x classes
+
+=====================================

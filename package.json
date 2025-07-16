@@ -1,0 +1,39 @@
+{
+  "name": "techflow-bootstrap-lab",
+  "version": "1.0.0",
+  "description": "Advanced Bootstrap Lab - TechFlow Landing Page",
+  "main": "starter-files/index.html",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js",
+    "test:watch": "mocha tests/**/*.test.js --watch",
+    "serve": "npx http-server . -p 8080 -o",
+    "validate": "node tests/validate.js"
+  },
+  "keywords": [
+    "bootstrap",
+    "html",
+    "css",
+    "responsive",
+    "landing-page",
+    "lab"
+  ],
+  "author": "Onja Labs",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "jsdom": "^22.1.0",
+    "mocha": "^10.2.0",
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onja-labs/css-bootstrap-advanced-project"
+  },
+  "bugs": {
+    "url": "https://github.com/onja-labs/css-bootstrap-advanced-project/issues"
+  },
+  "homepage": "https://github.com/onja-labs/css-bootstrap-advanced-project#readme"
+}

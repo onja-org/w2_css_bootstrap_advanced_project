@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="integrationGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0066cc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00cccc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="50" fill="url(#integrationGradient)" opacity="0.1"/>
+  <circle cx="60" cy="60" r="45" fill="none" stroke="url(#integrationGradient)" stroke-width="2" opacity="0.3"/>
+
+  <!-- Central hub -->
+  <circle cx="60" cy="60" r="15" fill="url(#integrationGradient)" opacity="0.9"/>
+  <circle cx="60" cy="60" r="12" fill="white"/>
+  <circle cx="60" cy="60" r="8" fill="url(#integrationGradient)"/>
+
+  <!-- Connection nodes -->
+  <g fill="white" stroke="url(#integrationGradient)" stroke-width="2">
+    <!-- Top -->
+    <circle cx="60" cy="25" r="8"/>
+    <!-- Top right -->
+    <circle cx="85" cy="35" r="8"/>
+    <!-- Right -->
+    <circle cx="95" cy="60" r="8"/>
+    <!-- Bottom right -->
+    <circle cx="85" cy="85" r="8"/>
+    <!-- Bottom -->
+    <circle cx="60" cy="95" r="8"/>
+    <!-- Bottom left -->
+    <circle cx="35" cy="85" r="8"/>
+    <!-- Left -->
+    <circle cx="25" cy="60" r="8"/>
+    <!-- Top left -->
+    <circle cx="35" cy="35" r="8"/>
+  </g>
+
+  <!-- Connection lines -->
+  <g stroke="url(#integrationGradient)" stroke-width="2" opacity="0.7">
+    <line x1="60" y1="45" x2="60" y2="33"/>
+    <line x1="69" y1="51" x2="77" y2="43"/>
+    <line x1="75" y1="60" x2="87" y2="60"/>
+    <line x1="69" y1="69" x2="77" y2="77"/>
+    <line x1="60" y1="75" x2="60" y2="87"/>
+    <line x1="51" y1="69" x2="43" y2="77"/>
+    <line x1="45" y1="60" x2="33" y2="60"/>
+    <line x1="51" y1="51" x2="43" y2="43"/>
+  </g>
+
+  <!-- Data flow animation paths -->
+  <g opacity="0.6">
+    <!-- Flowing dots -->
+    <circle cx="60" cy="39" r="2" fill="url(#integrationGradient)"/>
+    <circle cx="73" cy="47" r="2" fill="url(#integrationGradient)"/>
+    <circle cx="81" cy="60" r="2" fill="url(#integrationGradient)"/>
+    <circle cx="73" cy="73" r="2" fill="url(#integrationGradient)"/>
+    <circle cx="60" cy="81" r="2" fill="url(#integrationGradient)"/>
+    <circle cx="47" cy="73" r="2" fill="url(#integrationGradient)"/>
+    <circle cx="39" cy="60" r="2" fill="url(#integrationGradient)"/>
+    <circle cx="47" cy="47" r="2" fill="url(#integrationGradient)"/>
+  </g>
+
+  <!-- Node icons -->
+  <g fill="url(#integrationGradient)" opacity="0.8">
+    <!-- API symbols -->
+    <rect x="57" y="22" width="6" height="6" rx="1"/>
+    <rect x="82" y="32" width="6" height="6" rx="1"/>
+    <rect x="92" y="57" width="6" height="6" rx="1"/>
+    <rect x="82" y="82" width="6" height="6" rx="1"/>
+    <rect x="57" y="92" width="6" height="6" rx="1"/>
+    <rect x="32" y="82" width="6" height="6" rx="1"/>
+    <rect x="22" y="57" width="6" height="6" rx="1"/>
+    <rect x="32" y="32" width="6" height="6" rx="1"/>
+  </g>
+
+  <!-- Central plug symbol -->
+  <g fill="white" opacity="0.9">
+    <rect x="56" y="56" width="8" height="8" rx="2"/>
+    <circle cx="58" cy="58" r="1"/>
+    <circle cx="62" cy="58" r="1"/>
+    <circle cx="58" cy="62" r="1"/>
+    <circle cx="62" cy="62" r="1"/>
+  </g>
+
+  <!-- Integration text -->
+  <text x="60" y="108" font-family="Arial, sans-serif" font-size="10" fill="url(#integrationGradient)" text-anchor="middle" opacity="0.7">CONNECT</text>
+</svg>
