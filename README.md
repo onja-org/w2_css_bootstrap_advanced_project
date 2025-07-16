@@ -28,6 +28,10 @@ After completing this lab, you will be able to:
 - Use utility classes for spacing and alignment
 - Structure a professional website without custom CSS
 
+Don't worry if you don't complete the whole project in the allotted time or if you need to reference the solution. This lab has a lot of content, and it takes time to memorize Bootstrap classes and structures.
+
+If you need more guidance or find yourself hopelessly lost, check the `README_EASIER.md` file, which contains a walkthrough for portions you are stuck on. The goal is to learn and practice Bootstrap skills -- you don't have to be perfect. You can always come back to finish later if you want to figure it all out yourself!
+
 ## 🏗️ Project Structure
 
 ```
@@ -145,17 +149,19 @@ Create a compelling hero section that showcases TechFlow's value proposition.
 - Proper spacing and alignment
 
 ### Hero Content
-- **Headline**: "Revolutionize Your Workflow with AI"
-- **Subheadline**: "TechFlow's cutting-edge AI solutions streamline your processes, boost productivity, and drive innovation across your entire organization."
-- **Buttons**: "Get Started" (primary), "Learn More" (secondary)
+- **Headline**: "Revolutionize Your Workflow with AI" (display-4 class)
+- **Subheadline**: "TechFlow's cutting-edge AI solutions streamline your processes, boost productivity, and drive innovation across your entire organization." (lead class)
+- **Buttons**: "Get Started" (btn btn-primary), "Learn More" (btn btn-secondary)
 - **Hero Image**: Use `hero-bg.jpg` from assets
+- **Background**: Use the following custom inline css on your full-height hero element to achieve the gradient background:
+` style="background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);" `
 
 ### Success Criteria
-✅ Hero section spans full width
-✅ Content is properly aligned in two columns
+✅ Hero section spans full width (`container-fluid`)
+✅ Content is properly aligned in two columns (`row` and `col-lg-6`)
 ✅ Buttons are styled and sized correctly
 ✅ Layout stacks vertically on mobile
-✅ Background image displays properly
+✅ Background image displays properly (use `img-fluid` class)
 
 <details>
 <summary>💡 Hint: Grid Layout</summary>
@@ -196,6 +202,7 @@ Build three distinct sections using different Bootstrap components to showcase T
 - Icons, headings, and descriptions
 - Equal height cards
 - Responsive (stacks on mobile)
+- Find the text in `starter-files/content.txt` and the icons in `assets/images/`
 
 ### Feature Content
 1. **AI-Powered Analytics** (icon: chart-bar)
@@ -244,7 +251,6 @@ Use `border-primary` and `text-primary` classes to highlight the recommended pla
 ✅ Cards have consistent styling
 ✅ Responsive layout works on all devices
 ✅ Icons and images display correctly
-✅ Hover effects work smoothly
 
 ### Checkpoint
 When complete, your page should look like the image in `checkpoints/phase-3-complete.png`
@@ -371,9 +377,8 @@ You've successfully built a professional landing page using only Bootstrap! Your
 - **Mobile issues**: Test responsive utilities and grid classes
 
 ### Getting Support
-- Review the Bootstrap documentation
-- Check the solution files for reference
-- Ask questions during office hours
+- Review the [Bootstrap documentation](https://getbootstrap.com/docs/5.3/)
+- Check the solution file for reference
 - Pair program with a classmate
 
 ---
