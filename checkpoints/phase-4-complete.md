@@ -102,7 +102,7 @@ At this checkpoint, your page should have:
 ```
 Logo: TechFlow logo (light version)
 Description: "Empowering businesses with AI-driven workflow solutions..."
-Address: 123 Innovation Drive, Tech Valley, CA 94000
+Address: 123 Innovation Drive, Tech City, Madagascar
 Phone: (555) 123-4567
 Email: hello@techflow.ai
 ```
@@ -138,7 +138,7 @@ GitHub: /techflow
 
 ### Copyright
 ```
-© 2024 TechFlow. All rights reserved.
+© 2025 TechFlow. All rights reserved.
 ```
 
 ## 🎯 Page-Wide Polish Elements

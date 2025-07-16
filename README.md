@@ -35,7 +35,7 @@ After completing this lab, you will be able to:
 ├── starter-files/
 │   ├── index.html          # Your working file
 │   ├── content.txt         # All text content
-│   └── design-reference.pdf # Visual mockup
+│   └── design-reference.md # Visual mockup
 ├── assets/
 │   └── images/             # All project images
 ├── checkpoints/            # Visual progress indicators
@@ -65,7 +65,7 @@ After completing this lab, you will be able to:
 ### Step 2: Review the Content
 - Check `starter-files/content.txt` for all text content
 - Familiarize yourself with the provided images in `assets/images/`
-- Optional: Look at `design-reference.pdf` for visual guidance
+- Optional: Look at `design-reference.md` for visual guidance
 
 ### Step 3: Start Building!
 Follow the phases below in order. Each phase builds on the previous one.
@@ -78,7 +78,7 @@ Follow the phases below in order. Each phase builds on the previous one.
 Create a professional navigation bar that works perfectly on all devices.
 
 ### Requirements
-- Use Bootstrap's `navbar` component
+- Use Bootstrap's `navbar` component ([Documentation](https://getbootstrap.com/docs/5.0/components/navbar/))
 - Include the TechFlow logo and 5 navigation items
 - Make it responsive with a mobile toggle
 - Apply dark theme styling
@@ -86,7 +86,7 @@ Create a professional navigation bar that works perfectly on all devices.
 
 ### Navigation Items
 - Home
-- Features  
+- Features
 - About
 - Pricing
 - Contact
@@ -122,6 +122,14 @@ The mobile toggle requires:
 ### Checkpoint
 When complete, your navigation should look like the image in `checkpoints/phase-1-complete.png`
 
+Mobile:
+
+<img src="checkpoints/phase-1-complete-mobile.png" alt="Phase 1 Complete - Mobile" width="400px">
+
+Desktop:
+
+![Checkpoint 1](checkpoints/phase-1-complete.png)
+
 ---
 
 ## 📝 Phase 2: Hero Section & Grid Mastery (40 minutes)
@@ -152,7 +160,7 @@ Create a compelling hero section that showcases TechFlow's value proposition.
 <details>
 <summary>💡 Hint: Grid Layout</summary>
 
-Use Bootstrap's grid system:
+Use Bootstrap's grid system ([Documentation](https://getbootstrap.com/docs/5.0/layout/grid/)):
 1. Create a `container-fluid` for full width
 2. Use `row` and `col-lg-6` classes
 3. Remember `d-flex align-items-center` for vertical centering
@@ -172,6 +180,7 @@ Make images responsive with:
 
 ### Checkpoint
 When complete, your hero section should look like the image in `checkpoints/phase-2-complete.png`
+![Checkpoint 2](checkpoints/phase-2-complete.png)
 
 ---
 
@@ -183,7 +192,7 @@ Build three distinct sections using different Bootstrap components to showcase T
 ## Section 3A: Features (20 minutes)
 
 ### Requirements
-- Three-column card layout
+- Three-column card layout ([Documentation](https://getbootstrap.com/docs/5.0/components/card/))
 - Icons, headings, and descriptions
 - Equal height cards
 - Responsive (stacks on mobile)
@@ -204,20 +213,12 @@ Use `h-100` class on cards and `d-flex flex-column` with `card-body` for equal h
 
 ### Requirements
 - Team member cards with photos
-- Hover effects using Bootstrap utilities
 - Responsive grid (3 on desktop, 1 on mobile)
 
 ### Team Members
 - Sarah Johnson (CEO)
 - Mike Chen (CTO)
 - Lisa Rodriguez (Head of Design)
-
-<details>
-<summary>💡 Hint: Hover Effects</summary>
-
-Use Bootstrap utilities like `shadow-lg` on hover, or `text-decoration-none` for links.
-
-</details>
 
 ## Section 3C: Pricing (15 minutes)
 
@@ -247,6 +248,7 @@ Use `border-primary` and `text-primary` classes to highlight the recommended pla
 
 ### Checkpoint
 When complete, your page should look like the image in `checkpoints/phase-3-complete.png`
+![Checkpoint 3](checkpoints/phase-3-complete.png)
 
 ---
 
@@ -266,13 +268,12 @@ Add the finishing touches and ensure perfect mobile experience.
 - **Company Info**: Logo, description, contact
 - **Quick Links**: Home, Features, About, Pricing
 - **Social Links**: Twitter, LinkedIn, GitHub
-- **Copyright**: © 2024 TechFlow. All rights reserved.
+- **Copyright**: © 2025 TechFlow. All rights reserved.
 
 ### Success Criteria
 ✅ Footer has proper column layout
 ✅ Spacing is consistent throughout
 ✅ Mobile experience is optimized
-✅ All responsive breakpoints work
 ✅ Page looks professional and polished
 
 <details>
@@ -298,6 +299,7 @@ Bootstrap spacing utilities:
 
 ### Final Checkpoint
 When complete, your page should look like the image in `checkpoints/phase-4-complete.png`
+![Checkpoint 4](checkpoints/phase-4-complete.png)
 
 ---
 
@@ -308,7 +310,6 @@ When complete, your page should look like the image in `checkpoints/phase-4-comp
 - [ ] Hero section is responsive
 - [ ] All cards display properly
 - [ ] Images load correctly
-- [ ] Buttons are functional
 - [ ] Footer is properly formatted
 - [ ] Page works at 320px, 768px, 1024px, 1440px widths
 
@@ -316,6 +317,11 @@ When complete, your page should look like the image in `checkpoints/phase-4-comp
 Run the validation script to check your HTML structure:
 ```bash
 npm test
+```
+
+or, for more detailed output:
+```bash
+npm run test:verbose
 ```
 
 ### Cross-Browser Testing

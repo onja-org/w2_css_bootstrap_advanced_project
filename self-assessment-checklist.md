@@ -208,7 +208,7 @@ Use this checklist to verify your work and ensure you've met all the requirement
 - [ ] Social icons are properly sized and styled
 
 ### ✅ Copyright
-- [ ] Copyright notice: "© 2024 TechFlow. All rights reserved."
+- [ ] Copyright notice: "© 2025 TechFlow. All rights reserved."
 - [ ] Copyright is properly positioned
 - [ ] Copyright uses appropriate text styling
 

@@ -184,7 +184,7 @@ This document provides visual guidance for the TechFlow Bootstrap landing page d
 │  │Email        │  │             │  │             │  │         │ │
 │  └─────────────┘  └─────────────┘  └─────────────┘  └─────────┘ │
 │                                                                 │
-│                © 2024 TechFlow. All rights reserved.           │
+│                © 2025 TechFlow. All rights reserved.           │
 └─────────────────────────────────────────────────────────────────┘
 ```
 - **Background**: Dark

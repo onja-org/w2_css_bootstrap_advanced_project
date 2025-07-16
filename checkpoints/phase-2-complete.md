@@ -101,4 +101,4 @@ Once your hero section matches this description and displays properly on all dev
 
 ---
 
-**Need help?** Check the Bootstrap grid documentation or review the responsive utilities in the main README.md file.
+**Need help?** Check the Bootstrap grid documentation or review the responsive utilities in the main `/README.md` file.

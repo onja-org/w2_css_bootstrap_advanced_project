@@ -35,17 +35,17 @@ FEATURES SECTION
 Section Title: Why Choose TechFlow?
 
 Feature 1:
-- Icon: fas fa-chart-line
+- Icon: "../assets/images/feature-1.svg"
 - Title: AI-Powered Analytics
 - Description: Get deep insights into your workflow with advanced AI analytics that identify bottlenecks and optimization opportunities in real-time.
 
 Feature 2:
-- Icon: fas fa-plug
+- Icon: "../assets/images/feature-2.svg"
 - Title: Seamless Integration
 - Description: Connect with your existing tools and platforms effortlessly. Our API-first approach ensures smooth integration with minimal disruption.
 
 Feature 3:
-- Icon: fas fa-headset
+- Icon: "../assets/images/feature-3.svg"
 - Title: 24/7 Expert Support
 - Description: Our dedicated support team is available around the clock to help you maximize your productivity and resolve any issues quickly.
 
@@ -56,16 +56,19 @@ ABOUT/TEAM SECTION
 Section Title: Meet Our Team
 
 Team Member 1:
+- Image: "../assets/images/team-1.jpg"
 - Name: Sarah Johnson
 - Role: CEO & Founder
 - Description: Former Google executive with 15 years of experience in AI and machine learning. Sarah leads our vision for the future of work.
 
 Team Member 2:
+- Image: "../assets/images/team-2.jpg"
 - Name: Mike Chen
 - Role: Chief Technology Officer
 - Description: MIT graduate and former Tesla engineer. Mike oversees our technical architecture and ensures our platform scales globally.
 
 Team Member 3:
+- Image: "../assets/images/team-3.jpg"
 - Name: Lisa Rodriguez
 - Role: Head of Design
 - Description: Award-winning UX designer from Apple. Lisa crafts intuitive experiences that make complex AI tools accessible to everyone.
@@ -119,7 +122,7 @@ FOOTER
 Company Info:
 - Logo: TechFlow
 - Description: Empowering businesses with AI-driven workflow solutions that boost productivity and drive innovation.
-- Address: 123 Innovation Drive, Tech Valley, CA 94000
+- Address: 123 Innovation Drive, Tech City, Madagascar
 - Phone: (555) 123-4567
 - Email: hello@techflow.ai
 
@@ -143,7 +146,7 @@ Newsletter:
 - Placeholder: Enter your email address
 - Button: Subscribe
 
-Copyright: © 2024 TechFlow. All rights reserved.
+Copyright: © 2025 TechFlow. All rights reserved.
 
 =====================================
 ADDITIONAL CONTENT

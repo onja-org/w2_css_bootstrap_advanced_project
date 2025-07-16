@@ -80,7 +80,7 @@
   <!-- Name label -->
   <rect x="50" y="260" width="200" height="30" fill="white" opacity="0.9" rx="5"/>
   <text x="150" y="275" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="url(#personGradient)" text-anchor="middle">Sarah Johnson</text>
-  <text x="150" y="285" font-family="Arial, sans-serif" font-size="10" fill="url(#personGradient)" text-anchor="middle" opacity="0.7">CEO & Founder</text>
+  <text x="150" y="285" font-family="Arial, sans-serif" font-size="10" fill="url(#personGradient)" text-anchor="middle" opacity="0.7">CEO &amp; Founder</text>
 
   <!-- Professional border -->
   <rect x="5" y="5" width="290" height="290" fill="none" stroke="url(#personGradient)" stroke-width="3" opacity="0.3" rx="10"/>

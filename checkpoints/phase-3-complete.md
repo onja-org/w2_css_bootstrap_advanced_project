@@ -106,7 +106,7 @@ At this checkpoint, your page should have three distinct sections:
 ```
 Section Title: "Why Choose TechFlow?"
 Feature 1: AI-Powered Analytics
-Feature 2: Seamless Integration  
+Feature 2: Seamless Integration
 Feature 3: 24/7 Expert Support
 ```
 
@@ -173,4 +173,4 @@ Once all three sections (Features, Team, Pricing) are complete and display prope
 
 ---
 
-**Need help?** Check the Bootstrap cards documentation or review the component examples in the main README.md file.
+**Need help?** Check the Bootstrap cards documentation or review the component examples in the main `/README.md` file.

@@ -63,4 +63,4 @@ Once your navigation looks like this description, you're ready to move on to **P
 
 ---
 
-**Need help?** Check the Bootstrap documentation for navbar components or review the hints in the main README.md file.
+**Need help?** Check the Bootstrap documentation for navbar components or review the hints in the main `/README.md` file.

@@ -20,15 +20,8 @@
   </g>
 
   <!-- Company name -->
-  <text x="55" y="25" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1a1a1a">
-    Tech
-  </text>
-  <text x="55" y="45" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1a1a1a">
-    Flow
+  <text x="55" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1a1a1a">
+    Tech Flow
   </text>
 
-  <!-- Tagline -->
-  <text x="130" y="35" font-family="Arial, sans-serif" font-size="10" fill="#1a1a1a" opacity="0.8">
-    AI-Powered Solutions
-  </text>
 </svg>
