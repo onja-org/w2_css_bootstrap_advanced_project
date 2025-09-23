@@ -87,7 +87,7 @@ Replace `<!-- Logo goes here -->` with:
 
 ```html
 <a class="navbar-brand" href="#">
-  <img src="../assets/images/logo-light.svg" alt="TechFlow logo" height="40" class="d-inline-block align-top img-fluid">
+  <img src="../../assets/images/logo-light.svg" alt="TechFlow logo" height="40" class="d-inline-block align-top img-fluid">
 </a>
 ```
 
@@ -216,7 +216,7 @@ Replace `<!-- Text content goes here -->` with:
 Replace `<!-- Image goes here -->` with:
 
 ```html
-<img src="../assets/images/hero-bg.svg" alt="Team collaborating with AI technology" class="img-fluid" style="max-height: 500px">
+<img src="../../assets/images/hero-bg.svg" alt="Team collaborating with AI technology" class="img-fluid" style="max-height: 500px">
 ```
 
 **Bootstrap Classes Explained:**
@@ -297,7 +297,7 @@ Replace `<!-- Card 1 goes here -->` with:
 <div class="card h-100 shadow-sm border-0">
   <div class="card-body text-center p-4">
     <div class="mb-4">
-      <img src="../assets/images/feature-1.svg" alt="Analytics dashboard chart" class="img-fluid" style="height: 80px">
+      <img src="../../assets/images/feature-1.svg" alt="Analytics dashboard chart" class="img-fluid" style="height: 80px">
     </div>
     <h5 class="card-title text-primary fw-bold">AI-Powered Analytics</h5>
     <p class="card-text">
@@ -314,7 +314,7 @@ Replace `<!-- Card 2 goes here -->` with:
 <div class="card h-100 shadow-sm border-0">
   <div class="card-body text-center p-4">
     <div class="mb-4">
-      <img src="../assets/images/feature-2.svg" alt="Integration connection diagram" class="img-fluid" style="height: 80px">
+      <img src="../../assets/images/feature-2.svg" alt="Integration connection diagram" class="img-fluid" style="height: 80px">
     </div>
     <h5 class="card-title text-primary fw-bold">Seamless Integration</h5>
     <p class="card-text">
@@ -331,7 +331,7 @@ Replace `<!-- Card 3 goes here -->` with:
 <div class="card h-100 shadow-sm border-0">
   <div class="card-body text-center p-4">
     <div class="mb-4">
-      <img src="../assets/images/feature-3.svg" alt="Customer support headset" class="img-fluid" style="height: 80px">
+      <img src="../../assets/images/feature-3.svg" alt="Customer support headset" class="img-fluid" style="height: 80px">
     </div>
     <h5 class="card-title text-primary fw-bold">24/7 Expert Support</h5>
     <p class="card-text">
@@ -379,7 +379,7 @@ Add this after your features section:
     <div class="row g-4">
       <div class="col-lg-4 col-md-6">
         <div class="card h-100 shadow-sm border-0">
-          <img src="../assets/images/team-1.svg" alt="Sarah Johnson, CEO of TechFlow" class="card-img-top img-fluid">
+          <img src="../../assets/images/team-1.svg" alt="Sarah Johnson, CEO of TechFlow" class="card-img-top img-fluid">
           <div class="card-body text-center p-4">
             <h5 class="card-title text-primary fw-bold">Sarah Johnson</h5>
             <p class="text-muted mb-3">CEO & Founder</p>
@@ -391,7 +391,7 @@ Add this after your features section:
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="card h-100 shadow-sm border-0">
-          <img src="../assets/images/team-2.svg" alt="Mike Chen, CTO of TechFlow" class="card-img-top img-fluid">
+          <img src="../../assets/images/team-2.svg" alt="Mike Chen, CTO of TechFlow" class="card-img-top img-fluid">
           <div class="card-body text-center p-4">
             <h5 class="card-title text-primary fw-bold">Mike Chen</h5>
             <p class="text-muted mb-3">Chief Technology Officer</p>
@@ -403,7 +403,7 @@ Add this after your features section:
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="card h-100 shadow-sm border-0">
-          <img src="../assets/images/team-3.svg" alt="Lisa Rodriguez, Head of Design at TechFlow" class="card-img-top img-fluid">
+          <img src="../../assets/images/team-3.svg" alt="Lisa Rodriguez, Head of Design at TechFlow" class="card-img-top img-fluid">
           <div class="card-body text-center p-4">
             <h5 class="card-title text-primary fw-bold">Lisa Rodriguez</h5>
             <p class="text-muted mb-3">Head of Design</p>
@@ -571,7 +571,7 @@ Add this before your closing `</body>` tag:
     <div class="row g-4">
       <div class="col-lg-4 col-md-6">
         <div class="mb-4">
-          <img src="../assets/images/logo-light.svg" alt="TechFlow logo" height="40" class="mb-3 img-fluid">
+          <img src="../../assets/images/logo-light.svg" alt="TechFlow logo" height="40" class="mb-3 img-fluid">
           <p class="mb-3">
             Empowering businesses with AI-driven workflow solutions that boost productivity and drive innovation.
           </p>

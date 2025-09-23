@@ -505,7 +505,7 @@ function validateHTML() {
 
   console.log(colorize("\n🔗 Helpful Resources:", "cyan"));
   console.log("• Bootstrap Documentation: https://getbootstrap.com/docs/5.3/");
-  console.log("• Phase checkpoints: /checkpoints/ folder");
+  console.log("• Phase checkpoints: assets/checkpoints/ folder");
   console.log("• Self-assessment: self-assessment-checklist.md");
   console.log("• Complete solution: /solution/index.html");
 
