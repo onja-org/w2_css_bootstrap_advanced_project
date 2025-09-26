@@ -2,11 +2,11 @@
   "name": "techflow-bootstrap-lab",
   "version": "1.0.0",
   "description": "Advanced Bootstrap Lab - TechFlow Landing Page",
-  "main": "starter-files/index.html",
+  "main": "lab/starter-files/index.html",
   "scripts": {
-    "test": "node tests/validate.js",
-    "test:verbose": "mocha tests/**/*.test.js",
-    "test:watch": "mocha tests/**/*.test.js --watch",
+    "test": "node lab/tests/validate.js",
+    "test:verbose": "mocha lab/tests/**/*.test.js",
+    "test:watch": "mocha lab/tests/**/*.test.js --watch",
     "serve": "npx http-server . -p 8080 -o"
   },
   "keywords": [

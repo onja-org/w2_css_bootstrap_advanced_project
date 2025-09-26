@@ -265,7 +265,7 @@ When complete, your page should look like the image in `../assets/checkpoints/ph
 - [ ] Page works at 320px, 768px, 1024px, 1440px widths
 
 ### Automated Testing
-Run the validation script to check your HTML structure:
+Run the validation script to check your HTML structure from the project root:
 ```bash
 npm test
 ```
@@ -274,6 +274,8 @@ or, for more detailed output:
 ```bash
 npm run test:verbose
 ```
+
+**Note**: Since `package.json` is now in the project root, run these commands from the root directory (one level up from the lab folder).
 
 ### Cross-Browser Testing
 Test your page in:

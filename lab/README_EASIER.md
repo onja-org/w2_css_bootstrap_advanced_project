@@ -31,6 +31,8 @@ After completing this lab, you will be able to:
 
 ```
 /
+├── README.md             # Project overview and learning objectives
+├── package.json          # Test dependencies and scripts  
 ├── starter-files/
 │   ├── index.html          # Your working file (mostly empty)
 │   └── content.txt         # All text content

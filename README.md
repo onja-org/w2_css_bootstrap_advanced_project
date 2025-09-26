@@ -35,6 +35,7 @@ If you need more guidance or find yourself hopelessly lost, check the `README_EA
 ```
 /
 ├── README.md             # Project overview and learning objectives
+├── package.json          # Test dependencies and scripts
 ├── assets/
 │   └── images/             # All project images
 |   ├── checkpoints/        # Visual progress indicators
@@ -46,8 +47,7 @@ If you need more guidance or find yourself hopelessly lost, check the `README_EA
     │   ├── content.txt     # All text content
     │   └── design-reference.md # Visual mockup
     ├── solution/           # Complete solution (for reference)
-    ├── tests/              # Automated validation
-    └── package.json        # Test dependencies
+    └── tests/              # Automated validation
 ```
 
 ## Design System
@@ -61,6 +61,25 @@ If you need more guidance or find yourself hopelessly lost, check the `README_EA
 **Typography:**
 - Use Bootstrap's default font stack
 - Optional: Add Google Fonts for headings
+
+## Getting Started
+
+1. First, install the project dependencies:
+```bash
+npm install
+```
+
+2. You can run the automated tests to check your progress:
+```bash
+npm test
+```
+
+3. Or start a local development server:
+```bash
+npm run serve
+```
+
+For detailed implementation instructions, see [lab/README.md](lab/README.md).
 
 ## What You'll Accomplish
 
