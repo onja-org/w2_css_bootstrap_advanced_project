@@ -46,7 +46,6 @@ If you need more guidance or find yourself hopelessly lost, check the `README_EA
     │   ├── index.html      # Your working file
     │   ├── content.txt     # All text content
     │   └── design-reference.md # Visual mockup
-    ├── solution/           # Complete solution (for reference)
     └── tests/              # Automated validation
 ```
 

@@ -27,20 +27,6 @@ After completing this lab, you will be able to:
 - Use Bootstrap utility classes for spacing and styling
 - Structure a professional website with minimal custom CSS
 
-## 🏗️ Project Structure
-
-```
-/
-├── README.md             # Project overview and learning objectives
-├── package.json          # Test dependencies and scripts  
-├── starter-files/
-│   ├── index.html          # Your working file (mostly empty)
-│   └── content.txt         # All text content
-├── assets/
-│   └── images/             # All project images
-└── solution/               # Complete solution (for reference)
-```
-
 ## 🎨 Design System
 
 **Colors (already defined in starter CSS):**
